@@ -139,6 +139,18 @@ skor_pertandingan.gol("Garuda", 87)
 skor_pertandingan.tampilkan_skor()
 
 ```
+Output:
+```bash
+Tim Garuda mencetak gol pada menit 10
+Tim Elang mencetak gol pada menit 40
+Tim Elang mencetak gol pada menit 70
+Skor dari team Elang dianulir pada menit 70
+Tim Garuda mencetak gol pada menit 87
+Tim Garuda: 2 gol
+Gol di menit: 10, 87
+Tim Elang: 1 gol
+Gol di menit: 40
+```
 
 ### 2. Terdapat alat penghitung dzikir. ketika dihidupkan, hitungan dzikirnya mula mula 0. alat tersebut dijalankan dengan cara ditekan. setiap ditekan hitungan dzikir bertambah 1. alat tersebut mengeluarkan peringatan jika telah ditekan 33, 66, atau 99 kali. terdapat tombol reset untuk mengembalikan hitungan menjadi 0
 
@@ -237,4 +249,46 @@ dzikir.reset()
 # Tampilkan hitungan setelah reset
 dzikir.tampilkan_hitung()
 
+```
+Output:
+```bash
+Hitungan dzikir saat ini: 1
+Hitungan dzikir saat ini: 2
+Hitungan dzikir saat ini: 3
+Hitungan dzikir saat ini: 4
+Hitungan dzikir saat ini: 5
+Hitungan dzikir saat ini: 6
+Hitungan dzikir saat ini: 7
+Hitungan dzikir saat ini: 8
+Hitungan dzikir saat ini: 9
+Hitungan dzikir saat ini: 10
+Hitungan dzikir saat ini: 11
+Hitungan dzikir saat ini: 12
+Hitungan dzikir saat ini: 13
+Hitungan dzikir saat ini: 14
+Hitungan dzikir saat ini: 15
+Hitungan dzikir saat ini: 16
+Hitungan dzikir saat ini: 17
+Hitungan dzikir saat ini: 18
+Hitungan dzikir saat ini: 19
+Hitungan dzikir saat ini: 20
+Hitungan dzikir saat ini: 21
+Hitungan dzikir saat ini: 22
+Hitungan dzikir saat ini: 23
+Hitungan dzikir saat ini: 24
+Hitungan dzikir saat ini: 25
+Hitungan dzikir saat ini: 26
+Hitungan dzikir saat ini: 27
+Hitungan dzikir saat ini: 28
+Hitungan dzikir saat ini: 29
+Hitungan dzikir saat ini: 30
+Hitungan dzikir saat ini: 31
+Hitungan dzikir saat ini: 32
+Hitungan dzikir saat ini: 33
+Masyaallah, kamu telah berzikir 33 kali!
+Hitungan dzikir saat ini: 34
+Hitungan dzikir saat ini: 35
+Masyaallah, kamu telah berzikir 35 kali!
+Hitungan telah di-reset ke 0.
+Masyaallah, kamu telah berzikir 0 kali!
 ```
