@@ -140,7 +140,7 @@ skor_pertandingan.tampilkan_skor()
 
 ```
 
-### 2. terdapat alat penghitung dzikir. ketika dihidupkan, hitungan dzikirnya mula mula 0. alat tersebut dijalankan dengan cara ditekan. setiap ditekan hitungan dzikir bertambah 1. alat tersebut mengeluarkan peringatan jika telah ditekan 33, 66, atau 99 kali. terdapat tombol reset untuk mengembalikan hitungan menjadi 0
+### 2. Terdapat alat penghitung dzikir. ketika dihidupkan, hitungan dzikirnya mula mula 0. alat tersebut dijalankan dengan cara ditekan. setiap ditekan hitungan dzikir bertambah 1. alat tersebut mengeluarkan peringatan jika telah ditekan 33, 66, atau 99 kali. terdapat tombol reset untuk mengembalikan hitungan menjadi 0
 
 - Buat ADT
 - Implementasikan ADT
