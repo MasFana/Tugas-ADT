@@ -21,7 +21,7 @@ def fid():
     return send_file('fid.png')
 
 @app.route('/fana', methods=['GET'])
-def fana():
+def fid():
     return send_file('flag.txt')
 
 @app.route('/exploit', methods=['GET'])
