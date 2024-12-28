@@ -18,16 +18,15 @@ def _():
 
 @app.route('/', methods=['GET'])
 def solid():
-    return send_file('index.html')
+    return send_file('flag.txt')
 
 @app.route('/fid.png', methods=['GET'])
 def fid():
     return send_file('fid.png')
-
 
 @app.route('/fana', methods=['GET'])
 def fana():
     return send_file('flag.txt')
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=False)
+    app.run(host='0.0.0.0', port=5000, debug=True)
