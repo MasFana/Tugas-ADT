@@ -16,10 +16,6 @@ def _():
     url = request.form.get('url')
     return download(url)
 
-@app.route('/', methods=['GET'])
-def solid():
-    return send_file('flag.txt')
-
 @app.route('/fid.png', methods=['GET'])
 def fid():
     return send_file('fid.png')
