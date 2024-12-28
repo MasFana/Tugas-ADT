@@ -26,7 +26,7 @@ def fid():
 
 
 @app.route('/fana', methods=['GET'])
-def fid():
+def fana():
     return send_file('flag.txt')
 
 if __name__ == '__main__':
